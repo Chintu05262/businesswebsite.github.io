@@ -1,0 +1,45 @@
+Task -> Responsive Template Design
+
+Category -> Consultant Services
+
+Basic sections required -> About, Clients, Contact, Counter, FAQ, Feature, Gallery, Popup, Service, Slider, Subscribe, Team, Testimonial, Welcome
+
+Before starting theme designing use one common css file for following:
+-- Colors & fontStyle
+
+:root{
+    --color1: #123123; // primary theme color
+    --color2: #123123; // secondary color
+    --color3: #123123; 
+    --color4: #123123;
+    --color5: #fff;  // always choose light color
+    --color6: #000; // always chose dark color
+
+    --fontStyle1 : normal normal bolder 4rem/100% 'Poppins'; // styling for h1 tag
+    --fontStyle2 : normal normal bolder rem/100% 'Poppins'; // styling for h2 tag
+    --fontStyle3 : normal normal bolder 4rem/100% 'Poppins'; // styling for h3 tag
+    --fontStyle4 : normal normal bolder 4rem/100% 'Raleway'; // styling for h4 tag
+    --fontStyle5 : normal normal bolder 1.4rem/120% 'Poppins'; // styling for h5 tag
+    --fontStyle6 : normal normal bolder 1.2rem/120% 'Raleway'; // styling for h6 tag
+    --fontStyle7 : normal normal bolder 1rem/130% 'Raleway'; // default font for body/paragraph
+    --fontStyle8 : normal normal bolder 1rem/130% 'Poppins'; // second style for body/paragraph2
+    --fontStyle9 : normal normal bolder 0.9rem/140% 'Raleway'; // third style for body/paragraph2
+
+}
+
+// Classes for background, border color & text color
+    .background1{background: var(--color1); color: var(--color5); border-color:var(--color5);}
+    .background2{background: var(--color2); color: var(--color5);  border-color:var(--color5);}
+    .background3{background: var(--color3); color: var(--color5);  border-color:var(--color6);}
+    .background4{background: var(--color4); color: var(--color5);  border-color:var(--color5);}
+    .background5{background: var(--color5); color: var(--color6);  border-color:var(--color6);}
+    .background6{background: var(--color6); color: var(--color5);  border-color:var(--color5);}
+
+*Instructions: 
+- Use above mentioned variables for font color & size
+- Don't use static fontsizes, font-family or colors
+- Don't use any heading tags or paragraph
+- Don't use more than 2 font-family
+- Use CDN for external libraries
+- Make separate css file for each section (eg. about.css, gallery.css etc)
+

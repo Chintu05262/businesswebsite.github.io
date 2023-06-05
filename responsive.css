@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:945px){
+    .home{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10% 5% 0% 5%;
+        height: 100vh;
+    }
+}
